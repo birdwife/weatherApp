@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--The next line links the Bootstrap css file-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row row1">
+            <div class="row myTitle"><a href="index.html">I'm a weather app!</a></div>
+            <div class="row myBottomText">Enter any city (ex. London, Helsinki, Rome, etc.) in the search bar below</div>
+            <div class="row"><input class="inputBar form-control" id="myInput" placeholder="Enter a city here" onfocus="this.placeholder=''"></div>
+            <button type="button" class="btn btn-outline-light myBtn" id="myBtn">Submit</button>
+        </div>
+        <div class="row rowError">
+          <p id="errorMessage"></p>
+        </div>
+        <div class="row row2">
+            <div class="col-md-3 myCol1"><div class="card" id="card1">
+                <div class="card-body">
+                  <p id="cityTitle1"></p>
+                  <img id="card1Pic" width="100px" height="100px">
+                  <p>&nbsp;</p>
+                  <p id="tempNum1"></p>
+                  <p id="description1"></p>
+                </div>
+              </div></div>
+
+
+            <div class="col-md-3"><div class="card" id="card2">
+                <div class="card-body">
+                  <p id="cityTitle2"></p>
+                  <img id="card2Pic" width="100px" height="100px">
+                  <p>&nbsp;</p>
+                  <p id="tempNum2"></p>
+                  <p id="description2"></p>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="col-md-3"><div class="card" id="card3">
+                <div class="card-body">
+                  <p id="cityTitle3"></p>
+                  <img id="card3Pic" width="100px" height="100px">
+                  <p>&nbsp;</p>
+                  <p id="tempNum3"></p>
+                  <p id="description3"></p>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="col-md-3"><div class="card card4" id="card4">
+                <div class="card-body">
+                  <p id="cityTitle4"></p>
+                  <img id="card4Pic" width="100px" height="100px">
+                  <p>&nbsp;</p>
+                  <p id="tempNum4"></p>
+                  <p id="description4"></p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="row row3"><div class="picCredit">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></div>
+
+    </div>
+
+
+    <!--The next line links the Bootstrap javascript stuff-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="app.js" type="text/javascript"></script>
+
+</body>
+</html>

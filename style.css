@@ -1,0 +1,91 @@
+body {
+    background-color: violet !important;
+}
+
+.myTitle {
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 100px;
+    margin: 20px;
+}
+
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+
+.myBottomText {
+    position: relative;
+    bottom: 30px;
+    font-family: "Arial";
+}
+
+.inputBar {
+    font-family: "Arial";
+    width: 700px !important;
+    border-radius: 25px !important;
+}
+
+.myBtn {
+    position: relative;
+    left: 25px;
+    margin-bottom: 20px;
+}
+
+
+#cityTitle1 {
+    font-weight: bold;
+    text-transform: capitalize;
+    color: violet;
+}
+
+#cityTitle2 {
+    font-weight: bold;
+    text-transform: capitalize;
+    color: violet;
+}
+
+#cityTitle3 {
+    font-weight: bold;
+    text-transform: capitalize;
+    color: violet;
+}
+
+#cityTitle4 {
+    font-weight: bold;
+    text-transform: capitalize;
+    color: violet;
+}
+
+
+.picCredit {
+    position: relative;
+    top: 50px;
+    right: 10px;
+    font-size: 10px;
+}
+
+#errorMessage {
+    font-weight: bold;
+}
+
+#card1 {
+    position: relative;
+    right: 30px;
+}
+
+#card2 {
+    position: relative;
+    right: 30px;
+}
+
+#card3 {
+    position: relative;
+    right: 30px;
+}
+
+#card4 {
+    position: relative;
+    right: 30px;
+}
